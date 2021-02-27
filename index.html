@@ -351,13 +351,14 @@
                 </div>
 
                 <div class="contact-right">
-                    <form name="Contact" netlify>
+                    <form name="Contact" method="POST" data-netlify-recaptcha="true" data-netlify="true" netlify>
                         <input name="name" type="text" class="feedback-input" placeholder="Votre nom" required />
                         <input name="email" type="text" class="feedback-input" placeholder="Votre email" required />
                         <textarea name="text" class="feedback-input" placeholder="Votre commentaire"
                             required></textarea>
                         <input type="hidden" name="contact">
-                        <button type="submit" id="contact-button">Envoyer</button>
+                        <div data-netlify-recaptcha="true"></div>
+                        <button type="submit" >Envoyer</button>
                     </form>
                 </div>
             </div>
