@@ -353,15 +353,13 @@
                 <div class="contact-right">
                     <form id="contact-form" method="POST">
                         <input name="name" type="text" class="feedback-input" placeholder="Votre nom" required
-                            value="<?= $fields['name'] ?? null ?>" />
+                            value="Bob" />
                         <input name="email" type="text" class="feedback-input" placeholder="Votre email" required
-                            value="<?= $fields['email'] ?? null ?>" />
+                            value="bob.contact@gmail.com" />
                         <textarea name="text" class="feedback-input" placeholder="Votre commentaire"
-                            required><?= $fields['text'] ?? null ?></textarea>
+                            required></textarea>
                         <input type="hidden" name="contact">
-                        <button type="submit" class="g-recaptcha" id="contact-button"
-                            data-sitekey="<?= RECAPTCHA_SITE ?>" data-callback="sendContact"
-                            data-action="contact">Envoyer
+                        <button type="submit" class="g-recaptcha" id="contact-button">Envoyer
                         </button>
                     </form>
                 </div>
