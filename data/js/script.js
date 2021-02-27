@@ -9,12 +9,6 @@ function navbar() {
     }
 }
 
-//Captcha
-window.sendContact = function (token) {
-    document.getElementById("contact-button").style.display = "none";
-    document.getElementById("contact-form").submit();
-};
-
 //Cookies
 let cookiesBanner = document.querySelector(".cookies");
 
