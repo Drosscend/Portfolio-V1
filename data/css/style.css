@@ -345,6 +345,10 @@ nav .btn-mobile {
     border: 2px solid rgb(161, 117, 54);
 }
 
+#contact button {
+    margin-top: 13px;
+}
+
 #contact textarea {
     height: 150px;
     line-height: 150%;
