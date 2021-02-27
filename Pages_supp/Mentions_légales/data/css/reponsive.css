@@ -1,0 +1,17 @@
+@media screen and (max-width: 734px){
+  .container{
+      padding: 0 5%;
+  }
+}
+
+/*****************************/
+/*           FOOTER          */
+/*****************************/
+
+@media screen and (max-width: 734px){
+  #contact a.button{
+      margin: 8px 4px;
+      padding: 10px 30px;
+      letter-spacing: 0.2px;
+  }
+}

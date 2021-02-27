@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="fr-FR">
+
+<head>
+  <meta name="robots" content="noindex">
+
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <meta name="author" content="Kévin Véronési" />
+  <meta name="theme-color" content="#FFD152" />
+
+  <!-- Metadata -->
+  <title>Générateur de mot de passe aléatoire</title>
+  <link rel="canonical" href="https://kevin-dev.me" />
+  <meta name="twitter:title" content="Générateur de mot de passe aléatoire" />
+  <meta property="og:title" content="Générateur de mot de passe aléatoire" />
+  <meta property="og:type" content="website" />
+  <meta property="og:url" content="https://kevin-dev.me/Projets/Random_Password_Generator/index.html" />
+  <meta property="og:site_name" content="Kevin-dev" />
+
+  <!-- Favicon && Apple Icons -->
+  <link rel="icon" type="image/png" href="/data/img/logo.jpg" />
+  <link rel="apple-touch-icon" href="/data/img/logo.jpg" type="image/png" />
+
+  <!-- css -->
+  <link rel="stylesheet" href="/data/css/normalize.css" />
+  <link rel="stylesheet" href="/data/css/base.css" />
+  <link rel="stylesheet" href="/Projets/Random_Password_Generator/data/css/style.css">
+</head>
+
+<body>
+  <div class="inputBox">
+    <h2>Générateur de mot de passe aléatoire</h2>
+    <input type="text" placeholder="Générer le mot de passe" id="password" readonly />
+    <img src="data/copy.png" class="copy" alt="copier" onclick="copyPassword();">
+    <div id="btn" onclick="getPassword();">Générer le mot de passe</div>
+  </div>
+
+  <script src="data/js/script.js"></script>
+
+</body>
+
+</html>
