@@ -1,0 +1,5 @@
+[[redirects]]
+#Redurection 404
+  from = "/*"
+  to = "/Pages_supp/404/index.html"
+  status = 404 
