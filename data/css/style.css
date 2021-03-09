@@ -369,6 +369,8 @@ footer {
     margin: 0 auto;
     text-align: center;
     padding: 1em 0;
+    position: fixed;
+    bottom: 0;
 }
 
 footer span {
