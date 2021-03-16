@@ -13,6 +13,6 @@ package = "@netlify/plugin-sitemap"
   exclude = [
     # By file Path
     'Pages_supp/404/index.html',
-    'Projets/PlatformGames_Construct/\index.html',
+    'Projets/PlatformGames_Construct/index.html',
     'Projets/Random_Password_Generator/index.html'
   ]
