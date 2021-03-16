@@ -3,3 +3,16 @@
   from = "/*"
   to = "/Pages_supp/404/index.html"
   status = 404 
+
+
+[[plugins]]
+package = "@netlify/plugin-sitemap"
+
+  [plugins.inputs]
+  buildDir = "public"
+  exclude = [
+    # By file Path
+    'Pages_supp\404\index.html',
+    'Projets\PlatformGames_Construct\index.html',
+    'Projets\Random_Password_Generator\index.html'
+  ]
