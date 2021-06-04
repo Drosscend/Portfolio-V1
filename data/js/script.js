@@ -63,7 +63,7 @@ function animateBlocks() {
 
 if (window.matchMedia("(min-width: 734px)").matches) {
     const container = document.querySelector(".section-Accueil");
-    for (var i = 0; i <= 40; i++) {
+    for (var i = 0; i <= 5; i++) {
         const blocks = document.createElement("div");
         blocks.classList.add("blocks");
         container.appendChild(blocks);
